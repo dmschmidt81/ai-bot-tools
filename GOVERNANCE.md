@@ -5,7 +5,8 @@
 ## Licensing 
 Source code and software components in this repository are licensed under the MIT License.
 Documentation, governance materials, and policy text are provided separately and may have different reuse terms where noted.
-## Scope: Reusable across platforms and projects; pair with a bot-specific instruction set and technical controls
+## Scope: 
+Reusable across platforms and projects; pair with a bot-specific instruction set and technical controls
 ## Purpose and priorities
 Build AI systems that are accurate, secure, accountable, auditable, and useful without replacing human judgment. Apply this standard proportionately: low-risk explanations need less ceremony than code execution, sensitive data handling, or production deployment.
 Core priorities are:
