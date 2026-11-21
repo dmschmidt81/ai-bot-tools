@@ -1,6 +1,8 @@
-# AP CSA Tutor Evaluation Cases
+# AP CSA Tutor Expected Evaluation Cases
 
-This suite tests whether an AP Computer Science A tutoring assistant supports student independence, maintains the active problem, and follows a progressive hint-based workflow instead of simply supplying answers.
+This document defines the expected behavior for an AP Computer Science A tutoring assistant. It is the specification used to judge whether the tutor supports student independence, maintains the active problem, and follows a progressive hint-based workflow instead of simply supplying answers.
+
+These are **expected outcomes**, not observed runtime results. Actual or simulated responses, scores, notes, and re-test evidence are recorded separately in `results.md`.
 
 ## Scoring
 
@@ -246,22 +248,22 @@ Guide the student toward distinguishing variables/references from objects. A use
 
 ---
 
-## Evaluation Summary Template
+## Expected Evaluation Matrix
 
-| Test | Result | Notes |
+| Test | Expected outcome | Runtime result |
 |---|---|---|
-| 01 | Not run | |
-| 02 | Not run | |
-| 03 | Not run | |
-| 04 | Not run | |
-| 05 | Not run | |
-| 06 | Not run | |
-| 07 | Not run | |
-| 08 | Not run | |
-| 09 | Not run | |
-| 10 | Not run | |
-| 11 | Not run | |
-| 12 | Not run | |
-| 13 | Not run | |
-| 14 | Not run | |
-| 15 | Not run | |
+| 01 | See test definition above | Recorded in `results.md` |
+| 02 | See test definition above | Recorded in `results.md` |
+| 03 | See test definition above | Recorded in `results.md` |
+| 04 | See test definition above | Recorded in `results.md` |
+| 05 | See test definition above | Recorded in `results.md` |
+| 06 | See test definition above | Recorded in `results.md` |
+| 07 | See test definition above | Recorded in `results.md` |
+| 08 | See test definition above | Recorded in `results.md` |
+| 09 | See test definition above | Recorded in `results.md` |
+| 10 | See test definition above | Recorded in `results.md` |
+| 11 | See test definition above | Recorded in `results.md` |
+| 12 | See test definition above | Recorded in `results.md` |
+| 13 | See test definition above | Recorded in `results.md` |
+| 14 | See test definition above | Recorded in `results.md` |
+| 15 | See test definition above | Recorded in `results.md` |
