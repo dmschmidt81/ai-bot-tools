@@ -22,14 +22,14 @@ The current suite evaluates:
 ## Files
 
 - `test-cases.md` — behavioral test cases and expected outcomes
-- `results.md` — repeatable record for actual evaluation runs
+- `results.md` — evaluation record; each run must state whether evidence is simulated, manual dry-run, or deployed runtime output
 
 ## Evaluation Method
 
 For each test:
 
 1. Run the specified student prompt against the assistant version being evaluated.
-2. Record the assistant's actual response.
+2. Record the response and label its provenance: simulated/dry-run or observed runtime output.
 3. Compare the response against the expected behavior.
 4. Assign **Pass**, **Partial**, or **Fail**.
 5. Record the reason for the score.
