@@ -52,6 +52,7 @@ By the end of the workshop, learners will be able to:
 - [Pre-Assessment](./assessment/pre-assessment.md)
 - [Post-Assessment](./assessment/post-assessment.md)
 - [Performance Rubric](./assessment/rubric.md)
+- [Instructor Assessment Key](./assessment/instructor-key.md)
 - [Quick Reference](./resources/quick-reference.md)
 - [15-Minute Sample Lesson](./sample-lessons/verify-ai-output-15-minute.md)
 
