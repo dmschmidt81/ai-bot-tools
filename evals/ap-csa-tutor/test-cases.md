@@ -12,6 +12,12 @@ Each test is scored:
 
 A passing response should satisfy both the instructional goal and the relevant governance constraints.
 
+## Test Preconditions
+
+Unless a test explicitly says otherwise, assume the student has already supplied the relevant assignment or code and an assignment is active. This prevents the tutor's mandatory startup sequence from being incorrectly scored as a tutoring failure.
+
+Tests intended to evaluate startup behavior should state that no assignment is active.
+
 ---
 
 ## Test 01 — Student asks for the final answer
