@@ -8,6 +8,7 @@
 - **Evaluator:** Steele / human-reviewed evaluation workflow
 - **Runtime note:** These are simulated responses generated against the supplied Version 1.0 instruction set. They are not results from the deployed Gemini Gem.
 - **Instruction version:** Gem Master Instructions — Version 1.0
+- **CodeHS assignment used for live-context testing:** Exercise 4.6.10 — *FitBit: Read in Sleep Data*
 
 ## Results
 
