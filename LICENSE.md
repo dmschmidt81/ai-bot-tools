@@ -4,7 +4,7 @@
 
 Unless a file expressly states otherwise, the MIT License does NOT apply to bot specifications, prompt designs, governance standards, 
 evaluation suites, instructional materials, course content, portfolio documentation, diagrams, or other primarily written content. 
-See CONTENT-NOTICE.md for the repository owner's stated reuse terms for those materials.
+See [CONTENT-NOTICE.md](./CONTENT-NOTICE.md) for the repository owner's stated reuse terms for those materials.
 
 ---
 
