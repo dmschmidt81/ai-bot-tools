@@ -47,6 +47,8 @@ AI assistants that support organized personal workflows while maintaining explic
 ai-bot-tools/
 ├── README.md
 ├── LICENSE
+├── CONTENT-NOTICE.md
+├── SECURITY.md
 ├── GOVERNANCE.md
 │
 ├── bots/
@@ -84,6 +86,8 @@ ai-bot-tools/
 - **examples/** — sanitized demonstrations of real workflows and assistant behavior
 - **instructor-portfolio/** — instructor-ready workshops, labs, assessments, facilitator materials, and public teaching evidence
 - **GOVERNANCE.md** — shared standards for authorization, evidence, privacy, security, quality, and human control
+- **SECURITY.md** — public disclosure rules and security reporting guidance
+- **CONTENT-NOTICE.md** — reuse and licensing boundary for written portfolio content
 
 Some folders intentionally contain placeholders while the corresponding public artifacts are being prepared and sanitized.
 
@@ -227,9 +231,11 @@ This project reflects work in:
 
 ## Licensing
 
-Software and code in this repository are licensed under the [MIT License](./LICENSE).
+Source code and software components explicitly identified as MIT-licensed are covered by the [MIT License](./LICENSE).
 
-Governance documents, instructional materials, policy text, and other written content may have separate reuse terms where explicitly stated. If no separate terms are stated, do not assume the MIT License applies to material that is primarily documentation or policy content.
+Bot specifications, prompts, governance materials, evaluations, instructional materials, and other written portfolio content are governed by the [Content and Reuse Notice](./CONTENT-NOTICE.md) unless a specific file states otherwise.
+
+See [SECURITY.md](./SECURITY.md) for the public-disclosure boundary and [the publication review checklist](./templates/publication-review-checklist.md) for pre-publication review.
 
 ## Background
 
