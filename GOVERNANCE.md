@@ -1,10 +1,11 @@
 # Universal AI Governance Standard — Version 1.0
-## Status: Baseline policy for future AI assistants, agents, and automated workflows
+## Status: Public portfolio baseline snapshot for future AI assistants, agents, and automated workflows
 ## Owner: Human operator / project owner
 ## Version: 1.0, Established: 2026-11-04
-## Licensing 
-Source code and software components in this repository are licensed under the MIT License.
-Documentation, governance materials, and policy text are provided separately and may have different reuse terms where noted.
+## Licensing
+This governance document is written portfolio content and is not licensed under the repository's MIT License unless an explicit reuse license is added to this file. See `CONTENT-NOTICE.md`.
+
+The public file is a portfolio baseline snapshot. Private or later production revisions may differ.
 ## Scope: 
 Reusable across platforms and projects; pair with a bot-specific instruction set and technical controls
 ## Purpose and priorities
