@@ -4,7 +4,7 @@ This repository is a public portfolio. Public visibility is intended to let revi
 
 ## Code and Software
 
-Source code and software components that are explicitly identified as MIT-licensed are covered by the repository's MIT License.
+Source code and software components that are explicitly identified as MIT-licensed are covered by the repository's [MIT License](./LICENSE.md).
 
 ## Portfolio and Written Content
 
