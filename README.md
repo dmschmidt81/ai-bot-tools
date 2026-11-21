@@ -149,9 +149,24 @@ Current evaluation areas:
 
 ### AP Statistics
 
+- [AP Statistics Bot Specification](./bots/education/ap-statistics/AP-Stats-Exam-Prep-Coach-v1.0.md)
 - [AP Statistics Evaluations](./evals/ap-statistics/README.md)
 - [AP Statistics Expected Test Cases](./evals/ap-statistics/test-cases.md)
 - [AP Statistics Results](./evals/ap-statistics/results.md)
+
+### Administration — C3 Communications
+
+- [C3 Communications Assistant — Public Specification](./bots/administration/C3-Communications-Assistant-v3.1-public.md)
+- [C3 Administration Evaluations](./evals/c3-administration/README.md)
+- [C3 Expected Test Cases](./evals/c3-administration/test-cases.md)
+- [C3 Results](./evals/c3-administration/results.md)
+
+### Personal AI — Steele
+
+- [Steele Personal AI — Public Specification](./bots/personal/Steele-Personal-AI-v1.0-public.md)
+- [Steele Evaluations](./evals/steele-personal/README.md)
+- [Steele Expected Test Cases](./evals/steele-personal/test-cases.md)
+- [Steele Results](./evals/steele-personal/results.md)
 
 The evaluation process records the assistant version, actual response, expected behavior, result, required correction, and re-test outcome. Tests include both normal instructional scenarios and adversarial attempts to override tutoring constraints.
 
