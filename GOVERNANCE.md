@@ -3,7 +3,7 @@
 ## Owner: Human operator / project owner
 ## Version: 1.0, Established: 2026-11-04
 ## Licensing
-This governance document is written portfolio content and is not licensed under the repository's MIT License unless an explicit reuse license is added to this file. See `CONTENT-NOTICE.md`.
+This governance document is written portfolio content and is not licensed under the repository's [MIT License](./LICENSE.md) unless an explicit reuse license is added to this file. See [CONTENT-NOTICE.md](./CONTENT-NOTICE.md).
 
 The public file is a portfolio baseline snapshot. Private or later production revisions may differ.
 ## Scope: 
