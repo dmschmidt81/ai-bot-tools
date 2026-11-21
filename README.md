@@ -46,7 +46,7 @@ AI assistants that support organized personal workflows while maintaining explic
 ```text
 ai-bot-tools/
 ├── README.md
-├── LICENSE
+├── LICENSE.md
 ├── CONTENT-NOTICE.md
 ├── SECURITY.md
 ├── GOVERNANCE.md
@@ -227,7 +227,7 @@ This project reflects work in:
 
 ## Licensing
 
-Source code and software components explicitly identified as MIT-licensed are covered by the [MIT License](./LICENSE).
+Source code and software components explicitly identified as MIT-licensed are covered by the [MIT License](./LICENSE.md).
 
 Bot specifications, prompts, governance materials, evaluations, instructional materials, and other written portfolio content are governed by the [Content and Reuse Notice](./CONTENT-NOTICE.md) unless a specific file states otherwise.
 
