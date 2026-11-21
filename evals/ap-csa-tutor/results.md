@@ -19,11 +19,11 @@
 | 03 | Pass | Does not reveal the answer; asks about the value stored in `y` when assignment occurred. |
 | 04 | Pass | Acknowledges the correct part and asks one focused question about whether `y` changes automatically. |
 | 05 | Pass | Uses one diagnostic question instead of a lecture or multiple questions. |
-| 06 | Not run | |
-| 07 | Not run | |
-| 08 | Not run | |
-| 09 | Not run | |
-| 10 | Not run | |
+| 06 | Pass | Starts with a minimal loop-tracing hint instead of revealing the total. |
+| 07 | Pass | Restates the active CodeHS 4.6.10 objective without replacing it with a new task. |
+| 08 | Pass | Answers the constructor detour briefly, then returns to the unresolved Fitbit assignment. |
+| 09 | Pass | Debugs the student's file-reading code by targeting the smallest likely issue instead of rewriting the program. |
+| 10 | Pass | Treats the short answer `B` as an answer to the active question and asks for the student's reasoning before deeper evaluation. |
 | 11 | Not run | |
 | 12 | Not run | |
 | 13 | Not run | |
@@ -149,12 +149,174 @@ The response reduces the problem to one diagnostic question and does not launch 
 
 None from this dry run.
 
+### Test 06 — Hint ladder
+
+**Scenario**
+
+The student is tracing:
+
+```java
+int total = 0;
+
+for (int i = 0; i < 4; i++)
+{
+    total += i;
+}
+
+System.out.println(total);
+```
+
+The student says:
+
+> I think the final answer is 10.
+
+**Actual response**
+
+> Take one pass through the loop at a time. What value does `total` have after the first iteration when `i` is 0?
+
+**Result:** Pass
+
+**Reason**
+
+The response uses a Level 1 nudge, asks one focused question, and does not reveal the final total or trace the entire loop.
+
+**Required change**
+
+None from this dry run.
+
+---
+
+### Test 07 — Maintain active problem state
+
+**Active assignment**
+
+CodeHS Exercise 4.6.10 — *FitBit: Read in Sleep Data*
+
+The student has already supplied the assignment and is working out how to read each row and convert minutes asleep into hours.
+
+**Student prompt**
+
+> Wait, what was I supposed to figure out again?
+
+**Actual response**
+
+> You’re working on reading each row of Participant A’s sleep file and printing the date with the total hours slept. What value from each row do you need to convert from minutes to hours?
+
+**Result:** Pass
+
+**Reason**
+
+The response accurately restores the active assignment, does not invent a new exercise, and ends with one relevant reasoning question.
+
+**Required change**
+
+None from this dry run.
+
+---
+
+### Test 08 — Temporary concept detour
+
+**Active assignment**
+
+CodeHS Exercise 4.6.10 remains active.
+
+**Student prompt**
+
+> Before I answer, what does a constructor do?
+
+**Actual response**
+
+> A constructor initializes a new object when you use `new`. It usually sets the object’s starting instance-variable values. For this Fitbit file-reading assignment, though, we were working on the data in each row. Which value needs to be converted into hours?
+
+**Result:** Pass
+
+**Reason**
+
+The response answers the student's concept question concisely, avoids unnecessary advanced detail, and then returns to the unresolved assignment with one question.
+
+**Required change**
+
+None from this dry run.
+
+---
+
+### Test 09 — Debugging without taking over
+
+**Active assignment**
+
+CodeHS Exercise 4.6.10.
+
+**Student code**
+
+```java
+while (input.hasNext())
+{
+    String date = input.next();
+    double minutesAsleep = input.nextDouble();
+    double minutesInBed = input.nextDouble();
+
+    double hoursAsleep = minutesAsleep * 60;
+    System.out.println(date + ": slept " + hoursAsleep + " hours");
+}
+```
+
+**Student prompt**
+
+> My code is broken. Rewrite the whole thing for me.
+
+**Actual response**
+
+> Your file-reading structure looks reasonable, so focus on the conversion line. If `minutesAsleep` is 304 minutes, should converting that to hours make the number larger or smaller?
+
+**Result:** Pass
+
+**Reason**
+
+The response preserves the student's code, identifies the smallest relevant logic issue, and asks a question that directs the student toward correcting the conversion instead of replacing the program.
+
+**Required change**
+
+None from this dry run.
+
+---
+
+### Test 10 — Short answer recognized in context
+
+**Active question**
+
+> The assignment says to use which data type for numbers read from the file?
+>
+> A. `int`  
+> B. `double`  
+> C. `boolean`  
+> D. `char`
+
+**Student answer**
+
+> B
+
+**Actual response**
+
+> What in the assignment directions led you to choose B?
+
+**Result:** Pass
+
+**Reason**
+
+The response recognizes `B` as the student's attempted answer in the active context and asks for reasoning rather than restarting, ignoring the answer, or immediately over-explaining.
+
+**Required change**
+
+None from this dry run.
+
+---
+
 ## Summary
 
-- **Passed:** 5
+- **Passed:** 10
 - **Partial:** 0
 - **Failed:** 0
-- **Not run:** 10
+- **Not run:** 5
 
 ## Important Finding
 
@@ -164,6 +326,6 @@ This change prevents a correct startup response from being mislabeled as a tutor
 
 ## Limitations
 
-This is a manual specification-conformance dry run, not a live execution against the deployed Gemini Gem. The results show that the Version 1.0 instructions can produce responses that satisfy Tests 01–05 when followed as written. They do not establish that a particular deployed model will behave identically.
+This is a manual specification-conformance dry run, not a live execution against the deployed Gemini Gem. The results show that the Version 1.0 instructions can produce responses that satisfy Tests 01–10 when followed as written. They do not establish that a particular deployed model will behave identically.
 
 A later runtime evaluation should record the actual platform/model, exact assistant configuration, exact prompts, actual responses, and repeated-run behavior.
