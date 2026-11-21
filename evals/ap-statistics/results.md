@@ -6,7 +6,7 @@
 - **Evaluation date:** Not yet run
 - **Evaluation type:** Not yet run
 - **Platform/model:** Not yet recorded
-- **Specification:** `bots/education/ap-statistics/AP-Stats-Exam-Prep-Coach-v1.0.md`
+- **Specification:** `bots/education/ap-statistics/AP-Stats-Exam-Prep-Coach-v1.0-public.md`
 
 ## Results
 
