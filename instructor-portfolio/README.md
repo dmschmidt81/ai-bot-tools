@@ -5,7 +5,7 @@ This section demonstrates the ability to **teach AI**, not only design AI assist
 The portfolio combines two kinds of evidence:
 
 1. **Instructional design evidence** — workshop plans, learner materials, labs, assessments, rubrics, and responsible-AI curriculum.
-2. **Teaching evidence** — selected public videos demonstrating explanation, sequencing, examples, and on-camera instruction.
+2. **Teaching-evidence framework** — a place to curate selected public videos that can demonstrate explanation, sequencing, examples, and on-camera instruction.
 
 ## Current Workshop
 
@@ -17,7 +17,7 @@ The workshop teaches a repeatable process:
 
 ## Teaching Evidence
 
-See [Teaching Evidence](./teaching-evidence/README.md) for the structure used to connect selected LinkedIn, MathDragon, and other public instructional videos to specific teaching competencies.
+See [Teaching Evidence](./teaching-evidence/README.md) for the structure used to curate LinkedIn, MathDragon, and other public instructional videos. The current folder defines the evidence framework; individual video links can be added as they are selected.
 
 ## What This Portfolio Demonstrates
 
