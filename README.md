@@ -41,6 +41,48 @@ AI assistants that support job-search workflows, resume and cover-letter prepara
 
 AI assistants that support organized personal workflows while maintaining explicit boundaries around permissions, sensitive data, and external actions.
 
+## Repository Structure
+
+```text
+ai-bot-tools/
+├── README.md
+├── LICENSE
+├── GOVERNANCE.md
+│
+├── bots/
+│   ├── education/
+│   │   ├── ap-csa/
+│   │   └── ap-statistics/
+│   ├── administration/
+│   ├── career/
+│   └── personal/
+│
+├── evals/
+│   ├── ap-csa-tutor/
+│   │   ├── README.md
+│   │   ├── test-cases.md
+│   │   └── results.md
+│   └── ap-statistics/
+│       ├── README.md
+│       ├── test-cases.md
+│       └── results.md
+│
+├── templates/
+├── architecture/
+└── examples/
+```
+
+### What Each Area Demonstrates
+
+- **bots/** — public, sanitized assistant specifications organized by domain
+- **evals/** — expected behavior, conformance testing, runtime evidence, and re-test history
+- **templates/** — reusable design patterns and review structures
+- **architecture/** — system diagrams, trust boundaries, permissions, and design trade-offs
+- **examples/** — sanitized demonstrations of real workflows and assistant behavior
+- **GOVERNANCE.md** — shared standards for authorization, evidence, privacy, security, quality, and human control
+
+Some folders intentionally contain placeholders while the corresponding public artifacts are being prepared and sanitized.
+
 ## Governance
 
 All substantive assistants in this repository are intended to follow the principles defined in [GOVERNANCE.md](./GOVERNANCE.md).
@@ -97,11 +139,19 @@ Development versions, experimental prompts, sensitive workflows, internal notes,
 
 This repository includes repeatable behavioral evaluations so assistant quality is demonstrated with evidence rather than described only in prose.
 
-The first suite is located at:
+Current evaluation areas:
+
+### AP Computer Science A
 
 - [AP CSA Tutor Evaluations](./evals/ap-csa-tutor/README.md)
-- [AP CSA Tutor Test Cases](./evals/ap-csa-tutor/test-cases.md)
-- [AP CSA Tutor Results](./evals/ap-csa-tutor/results.md)
+- [AP CSA Expected Test Cases](./evals/ap-csa-tutor/test-cases.md)
+- [AP CSA Results](./evals/ap-csa-tutor/results.md)
+
+### AP Statistics
+
+- [AP Statistics Evaluations](./evals/ap-statistics/README.md)
+- [AP Statistics Expected Test Cases](./evals/ap-statistics/test-cases.md)
+- [AP Statistics Results](./evals/ap-statistics/results.md)
 
 The evaluation process records the assistant version, actual response, expected behavior, result, required correction, and re-test outcome. Tests include both normal instructional scenarios and adversarial attempts to override tutoring constraints.
 
