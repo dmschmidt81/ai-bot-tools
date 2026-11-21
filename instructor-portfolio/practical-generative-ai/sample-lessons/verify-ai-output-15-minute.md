@@ -20,7 +20,7 @@ Teaching point:
 
 Explain briefly:
 
-- AI can generate useful text from context and learned language patterns.
+- AI can generate useful text from context and learned patterns.
 - It can also generate unsupported details.
 - Better prompting reduces ambiguity but does not guarantee truth.
 
@@ -30,14 +30,19 @@ Write:
 
 ## 5:00–9:00 — Demonstration
 
-Show an AI response containing:
+Display this **fictional, deliberately unverified** AI output:
 
-- one factual claim,
-- one assumption,
-- one recommendation,
-- one calculation.
+> The new workplace procedure began on October 15.  
+> A 120-minute training session lasts 2 hours.  
+> Because the memo emphasizes urgency, leadership probably wants every department to switch immediately.  
+> I recommend changing the process today.
 
-Ask learners to label each.
+Ask learners to label each statement:
+
+- factual claim,
+- calculation,
+- interpretation/assumption,
+- or recommendation.
 
 Then ask:
 
@@ -45,10 +50,12 @@ Then ask:
 
 Introduce:
 
-- fact → source
+- factual claim → authoritative source
 - calculation → recompute
-- policy → governing document
-- code → test
+- policy/procedure → governing document or responsible authority
+- recommendation → evaluate evidence, risk, and authorization
+
+**Instructor key:** the first statement is an unverified factual claim; the second is a calculation that can be independently checked; the third is an interpretation/assumption; the fourth is a recommendation that should not become an external action without appropriate review.
 
 ## 9:00–12:00 — Human Approval
 
