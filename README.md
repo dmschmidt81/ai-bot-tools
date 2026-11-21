@@ -69,7 +69,10 @@ ai-bot-tools/
 │
 ├── templates/
 ├── architecture/
-└── examples/
+├── examples/
+└── instructor-portfolio/
+    ├── practical-generative-ai/
+    └── teaching-evidence/
 ```
 
 ### What Each Area Demonstrates
@@ -79,9 +82,35 @@ ai-bot-tools/
 - **templates/** — reusable design patterns and review structures
 - **architecture/** — system diagrams, trust boundaries, permissions, and design trade-offs
 - **examples/** — sanitized demonstrations of real workflows and assistant behavior
+- **instructor-portfolio/** — instructor-ready workshops, labs, assessments, facilitator materials, and public teaching evidence
 - **GOVERNANCE.md** — shared standards for authorization, evidence, privacy, security, quality, and human control
 
 Some folders intentionally contain placeholders while the corresponding public artifacts are being prepared and sanitized.
+
+## AI Instruction Portfolio
+
+This repository also demonstrates the ability to teach practical AI skills to other people.
+
+### Practical Generative AI: From Prompt to Reliable Workflow
+
+The first instructor-ready workshop includes:
+
+- Learning objectives
+- Facilitator guide
+- Learner guide
+- Four hands-on labs
+- Pre- and post-assessments
+- Performance rubric
+- Quick-reference job aid
+- 15-minute sample lesson
+- Teaching-evidence framework for selected public instructional videos
+
+- [AI Instructor Portfolio](./instructor-portfolio/README.md)
+- [Practical Generative AI Workshop](./instructor-portfolio/practical-generative-ai/README.md)
+- [Teaching Evidence](./instructor-portfolio/teaching-evidence/README.md)
+- [15-Minute Sample Lesson](./instructor-portfolio/practical-generative-ai/sample-lessons/verify-ai-output-15-minute.md)
+
+The written materials demonstrate instructional design and responsible-AI curriculum development. Selected public videos can demonstrate live explanation, facilitation, and on-camera teaching.
 
 ## Governance
 
@@ -188,6 +217,9 @@ This project reflects work in:
 - Approval and authorization logic
 - Threat modeling
 - Instructional design
+- Adult learning and facilitation
+- AI literacy instruction
+- Assessment and rubric design
 - Educational technology
 - Structured problem solving
 - Documentation
