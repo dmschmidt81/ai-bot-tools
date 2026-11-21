@@ -12,7 +12,7 @@ Selected public videos can include:
 - MathDragon YouTube videos
 - Other public teaching demonstrations
 
-## What the Videos Can Prove
+## What Selected Videos Can Demonstrate
 
 Strong examples can demonstrate:
 
@@ -52,4 +52,4 @@ A balanced set might include:
 
 ## Portfolio Principle
 
-**The repository proves the instructional system. The videos prove the instructor can deliver it.**
+**The repository provides evidence of instructional design. Selected teaching videos provide evidence of delivery.**
