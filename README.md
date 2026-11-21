@@ -178,7 +178,7 @@ Current evaluation areas:
 
 ### AP Statistics
 
-- [AP Statistics Bot Specification](./bots/education/ap-statistics/AP-Stats-Exam-Prep-Coach-v1.0.md)
+- [AP Statistics Bot Specification](./bots/education/ap-statistics/AP-Stats-Exam-Prep-Coach-v1.0-public.md)
 - [AP Statistics Evaluations](./evals/ap-statistics/README.md)
 - [AP Statistics Expected Test Cases](./evals/ap-statistics/test-cases.md)
 - [AP Statistics Results](./evals/ap-statistics/results.md)
@@ -197,7 +197,7 @@ Current evaluation areas:
 - [Steele Expected Test Cases](./evals/steele-personal/test-cases.md)
 - [Steele Results](./evals/steele-personal/results.md)
 
-The evaluation process records the assistant version, actual response, expected behavior, result, required correction, and re-test outcome. Tests include both normal instructional scenarios and adversarial attempts to override tutoring constraints.
+Each evaluation record states what kind of evidence it contains. Manual specification-conformance dry runs are labeled separately from deployed runtime tests. When a run is performed, the record may include the assistant version, prompt, observed or simulated response, expected behavior, result, required correction, and re-test outcome. Tests include both normal scenarios and adversarial attempts to override constraints.
 
 ## Project Status
 
