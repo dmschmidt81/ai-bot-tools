@@ -93,6 +93,18 @@ This repository is the public-facing collection of selected, sanitized tools and
 
 Development versions, experimental prompts, sensitive workflows, internal notes, private data, and organization-specific material may be maintained separately and are not automatically published here.
 
+## Evaluation
+
+This repository includes repeatable behavioral evaluations so assistant quality is demonstrated with evidence rather than described only in prose.
+
+The first suite is located at:
+
+- [AP CSA Tutor Evaluations](./evals/ap-csa-tutor/README.md)
+- [AP CSA Tutor Test Cases](./evals/ap-csa-tutor/test-cases.md)
+- [AP CSA Tutor Results](./evals/ap-csa-tutor/results.md)
+
+The evaluation process records the assistant version, actual response, expected behavior, result, required correction, and re-test outcome. Tests include both normal instructional scenarios and adversarial attempts to override tutoring constraints.
+
 ## Project Status
 
 This repository is under active development.
