@@ -61,13 +61,9 @@ ai-bot-tools/
 │
 ├── evals/
 │   ├── ap-csa-tutor/
-│   │   ├── README.md
-│   │   ├── test-cases.md
-│   │   └── results.md
-│   └── ap-statistics/
-│       ├── README.md
-│       ├── test-cases.md
-│       └── results.md
+│   ├── ap-statistics/
+│   ├── c3-administration/
+│   └── steele-personal/
 │
 ├── templates/
 ├── architecture/
